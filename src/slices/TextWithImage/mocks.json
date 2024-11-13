@@ -44,7 +44,7 @@
 					"background": "transparent"
 				},
 				"credits": null,
-				"alt": null,
+				"alt": "Normal Image",
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			}
@@ -96,7 +96,7 @@
 					"background": "transparent"
 				},
 				"credits": null,
-				"alt": null,
+				"alt": "ai",
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			}
