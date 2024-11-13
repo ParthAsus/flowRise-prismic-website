@@ -3,9 +3,10 @@ import localFont from "next/font/local";
 import "./globals.css";
 import clsx from "clsx";
 import { nunito, nunito_sans } from "./fonts/fonts";
-import { createClient } from "@/prismicio";
+import { createClient, repositoryName } from "@/prismicio";
 import Header from "@/componenets/header";
 import Footer from "@/componenets/footer";
+import { PrismicPreview } from "@prismicio/next";
 
 export async function generateMetadata(): Promise<Metadata> {
   const client = createClient();
@@ -31,6 +32,7 @@ export default function RootLayout({
         {children}
         <Footer></Footer>
         <div className="fixed bg-gradient-to-tr from-cyan-50 to-emerald-50 z-[-1] inset-0"/>
+        <PrismicPreview  repositoryName={repositoryName}/>
       </body>
     </html>
   );
