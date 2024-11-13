@@ -7,7 +7,7 @@ export default async function Header() {
   const client = createClient();
   const settings = await client.getSingle("settings");
   return (
-    <Bounded as="header" className="bg-gray-100 py-4 md:py-6 lg:py-8">
+    <Bounded as="header" className="py-4 md:py-6 lg:py-8">
       <div className="flex items-center gap-4 justify-between sm:flex-row flex-col">
         <Link href="/"><Logo /></Link>
         <nav>
