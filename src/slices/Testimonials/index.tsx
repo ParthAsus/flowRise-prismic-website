@@ -2,13 +2,12 @@ import Bounded from "@/componenets/bounded";
 import Heading from "@/componenets/heading";
 import { createClient } from "@/prismicio";
 import { Content, isFilled } from "@prismicio/client";
-import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
+import { PrismicNextImage} from "@prismicio/next";
 import {
   JSXMapSerializer,
   PrismicRichText,
   SliceComponentProps,
 } from "@prismicio/react";
-import { promises } from "dns";
 
 const componenets: JSXMapSerializer = {
   heading2: ({ children }) => (

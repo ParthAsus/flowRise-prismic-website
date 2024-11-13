@@ -2,7 +2,7 @@ import Bounded from "@/componenets/bounded";
 import Button from "@/componenets/button";
 import Heading from "@/componenets/heading";
 import { Content } from "@prismicio/client";
-import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
+import { PrismicNextImage} from "@prismicio/next";
 import {
   JSXMapSerializer,
   PrismicRichText,

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import clsx from "clsx";
 import { nunito, nunito_sans } from "./fonts/fonts";
